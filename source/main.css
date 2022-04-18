@@ -44,8 +44,8 @@
 /* Responsive typography */
 @media only screen and (orientation: portrait)  {
     :root {
-        --header: 3.2rem;
-        --title: 2.4rem;
+        --header: 2.8rem;
+        --title: 2rem;
         --subtitle: 2rem;
         --body-text: 1.6rem;
         --details: 1.4rem;
@@ -125,7 +125,7 @@ button {
     color: var(--first-color);
     border-radius: 0.8rem;
     font-size: var(--body-text);
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
     text-transform: uppercase;
     background-color: var(--dourado);
