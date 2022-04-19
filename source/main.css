@@ -277,7 +277,7 @@ header .container li::before{
 }
 .s-benefits .container .benefits_items{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 4rem;
     max-width: 80%;
     height: auto;
@@ -378,7 +378,7 @@ header .container li::before{
     margin-top: 1rem;
     
 }
-.countdown_timer .cronometro span{
+.countdown_timer .cronometro p{
     display: grid;
     background-color: var(--attention-color-red);
     width: 64px;
@@ -390,9 +390,10 @@ header .container li::before{
     font-weight: 700;
     color: #fff; 
 }
-.countdown_timer .cronometro p{
+.countdown_timer .cronometro span{
     font-size: 1.6rem;
     font-weight: 400;
+    color:#ffffff;
 }
 
 
