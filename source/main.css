@@ -652,6 +652,12 @@ details[open] summary ~ *{
 .s-termos .container h3{
     text-align: left;
 }
+.s-termos .container li{
+    color: inherit;
+}
+.s-termos .container a{
+    color: blue;
+}
 
 .s-privacidade h3{
     text-align: left;
