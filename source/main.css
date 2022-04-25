@@ -146,7 +146,10 @@ button:disabled{
     box-shadow: none;
     pointer-events: none;
 }
-
+section{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
 .dourado {
     color: var(--dourado);
     font-weight: inherit;
@@ -719,4 +722,10 @@ footer .container p{
 }
 .s-afiliados .card small{
     font-size: 1.2rem;
+}
+.s-contact .container{
+    place-items: center;
+}
+.s-contact button{
+   max-width: 400px ;
 }
