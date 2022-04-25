@@ -70,7 +70,6 @@
     box-sizing:border-box;
     font-size:62.5%;
     font-family: 'Outfit', sans-serif;
-    font-display: fallback;
 }
 html{
     scroll-behavior: smooth;
@@ -161,7 +160,7 @@ button:hover {
 
 header{
     background: linear-gradient(180deg, #171717 0%, #000000 100%);
-    padding-top: 2rem;
+    padding-top: 6.4rem;
     padding-bottom: 0;
 }
 header .container{
@@ -395,7 +394,9 @@ header .container li::before{
     font-weight: 400;
     color:#ffffff;
 }
-
+.countdown_timer .days{
+    display: none;
+}
 
 .s-offer{
     padding-top: 4rem;
