@@ -83,7 +83,7 @@ h3{
 }
 p{
     font-size: var(--body-text);
-    line-height: 160%;
+    line-height: 1.6em;
 }
 li{
     font-size: var(--body-text);
@@ -234,15 +234,15 @@ header img{
 }
 .s-benefits .container .benefits_items{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 4rem;
-    max-width: 80%;
-    height: auto;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, auto));
+    gap: 2.4rem;
     margin: auto;
+    justify-items: center;
     margin-top: 4rem;
 }
 .s-benefits .container .benefits_items .benefits_item{
-    display: grid;
+    display: flexbox;
     padding: 2rem;
     place-items: center;
     align-items: stretch;
@@ -254,7 +254,9 @@ header img{
     font-weight: 500;
 }
 .s-benefits .container .benefits_items .benefits_item img{
-    max-width: 25rem;
+    max-width: max-content;
+    max-height: 25rem;
+    object-fit: contain;
 }
 
 .s-results{
