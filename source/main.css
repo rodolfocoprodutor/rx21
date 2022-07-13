@@ -169,13 +169,17 @@ section{
     stroke: currentColor;
     fill: rgb(197, 9, 9);
 }
-header {
+header.banner-hero {
     display: grid;
     place-items: center;
 }
-header img{
+header .banner-hero picture{
+    width: 1920px;
+    height: 971px;
+}
+header.banner-hero img{
     max-width: max-content;
-    max-height: max-content;
+    max-height: 971px;
     object-fit: contain;
 }
 
