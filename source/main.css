@@ -283,7 +283,7 @@ header.banner-hero img{
 }
 .s-benefits .container .benefits_items .benefits_item img{
     max-width: max-content;
-    max-height: 25rem;
+    max-height: 20rem;
     object-fit: contain;
 }
 
