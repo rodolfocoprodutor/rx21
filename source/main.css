@@ -95,6 +95,7 @@ a{
 img{
     width: 100%;
     height: auto;
+    vertical-align: middle;
 }
 span{
     font-size: inherit;
@@ -169,20 +170,31 @@ section{
     stroke: currentColor;
     fill: rgb(197, 9, 9);
 }
+.grid{
+    display: grid;
+    grid-template-columns: minmax(200px, 300px) 1fr;
+}
 header.banner-hero {
     display: grid;
     place-items: center;
 }
-header .banner-hero picture{
-    width: 1920px;
-    height: 971px;
+header .banner-hero a picture .desk{
+    display: block;
 }
+header .banner-hero a picture .mob{
+    display: block;
+}
+header .banner-hero a picture .img-fluid{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 header.banner-hero img{
     max-width: max-content;
     max-height: 971px;
     object-fit: contain;
 }
-
 .s-video{
     padding-top: 4rem;
     padding-bottom: 6rem;
@@ -250,17 +262,18 @@ header.banner-hero img{
 .s-benefits .container .benefits_items{
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, auto));
+    grid-template-columns:repeat(auto-fit, minmax(18rem, auto));
     gap: 2.4rem;
     margin: auto;
     justify-items: center;
     margin-top: 4rem;
 }
 .s-benefits .container .benefits_items .benefits_item{
-    display: flexbox;
+    display: grid;
+    max-width: 30rem;
     padding: 2rem;
     place-items: center;
-    align-items: stretch;
+    align-items: baseline;
     gap: 2rem;
 }
 .s-benefits .container .benefits_items .benefits_item p{
